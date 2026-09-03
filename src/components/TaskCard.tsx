@@ -1,7 +1,7 @@
 import { type TaskCardProps } from "../libs/Todolist";
 
 
-export default function TaskCard({ id, title, description, isDone } : TaskCardProps) {
+export default function TaskCard({  title, description } : TaskCardProps) {
   return (
     <div className="card mb-3">
       <div className="card-body">
